@@ -1,0 +1,21 @@
+The function which we use to talk to the internet things (API Server)
+
+
+
+   Contact the server and get the data ---------
+     |				                                \|/
+Web APP ----trying to talk to ----> nasa API Server
+    /|\				   	                           \|/
+    |----------------------------------------Json		
+
+
+     console.log(endpointForNASAAPI);
+  
+  fetch(endpointForNASAAPI).then(function(response){
+    return response.json();
+  }
+  ).then(function(json){
+         console.log(json);
+         }
+        )
+}

@@ -1,0 +1,30 @@
+CI - Continuous Integration
+CD - Continuous Deployment
+
+Only CD will be taught 
+
+for Deployment we are going to use vercel
+
+Everthing is automatic in Deployment not like olden days (File Zilla)
+
+DevOps - Takes care of the deployment infrastructure. They are not doing the deployment but they are taking care of the security, system and writig the code which makes deployment happen. DevOps is mainly about management. They build the technology which takes care of the deployment. 
+
+They will take of GitHub, GitHub Agent and Cloud web apps.
+
+DevOps guys are making a lot of many. 
+
+Azure is one option for deployment. Cloud Service...(Paid Service)
+
+vercel is another option. 
+
+
+So how does Continuous Deployment work?
+
+GitHub -> Deployment Agent -> Web App. 
+
+vercel will create a automatic web app for you... Deployment Agent and Web App are coming with the same company. Usually we have to create a web app separately but as we are using vercel they come along with it. 
+
+
+Steps of CD:
+
+1. 

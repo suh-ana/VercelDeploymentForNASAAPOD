@@ -1,0 +1,69 @@
+server means giving some data which can be used in s/w app eg movie servie you have the nerflix server  and you can watch netflix movie on web app, mobile app, smart tv or Xbox 
+
+Netflix server == api
+
+kannada ----> English <-----Rajastani 
+		
+Application Programming Interface
+
+netflix maintains singal API technology which means It allows different software applications to communicate with each other.
+
+company like netflix are able to provide services where it doesn't matter what kinda technology is happening here they can all talk to the api in a common language 
+
+e.g we can watch a movie on Xiomi TV or we can watch it on LG TV or Mac or Iphone etc 
+
+Everything in the world is a API. 
+
+All API use JSON formatt. 
+
+IPhone App are build using Swift language and 
+
+Prettier website is used to make the json data prettier and readable 
+
+Every backend project will have an API  
+
+step 1: Before I can build the website
+step 2: API endpoint
+step 3: study the API Json data 
+step 4: test and make sure it is working 
+AFTER THIS WE CAN START BUILDING THE SOFTWARE 
+
+steps to remember 
+
+step 1: take the API link from the nasa website 
+step 2: copy the link in a new tab 
+step 3: go to raw data and copy the data 
+step 4: go to "Prettier" website 
+step 5: select "Json" from the dropdown
+step 6: Paste the data in prettier(You'll get the data in prettier and more readable form)
+
+
+In your web app code you'll have to write the api link which we have taken from NASA API website and you have to generate the API Key from the NASA website only. Just like below:
+
+        let apikey = "ohPAwlRIfXaSUUcpH7yvmbyLwfJZwGul58jrJueP";
+    let url = "https://api.nasa.gov/planetary/apod?api_key=" + apikey;
+
+    console.log(url);
+
+- Now you'll get your endpoint in the console. Now copy the endpoint which is in this case is "url". Paste the endpoint in the postman app for testing the link. Follow the below steps for the testing 
+
+Steps for Testing the api 
+
+1. Install Postman 
+2. Create the Account
+3. Create a Workspace (OPtional)
+4. Create a collection 
+5. Add a request
+6. Confirm that you are getting the JSON
+
+
+
+DOM Manipulation 
+
+DOM is nothing but everthing is HTML
+
+
+
+
+
+			                       
